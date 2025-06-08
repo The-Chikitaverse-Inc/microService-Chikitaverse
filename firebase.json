@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "target": "login",
+    "public": "public",
+    "redirects": [
+      {
+        "source": "**",
+        "destination": "https://chikitaverse.com",
+        "type": 301
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

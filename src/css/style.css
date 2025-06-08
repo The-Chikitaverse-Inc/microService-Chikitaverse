@@ -1,0 +1,46 @@
+body {
+  background: #1c1a1a;
+}
+
+#notfound {
+  display: inline-flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #3a3a3a;
+  border: #3a3a3a solid 1px;
+  border-radius: 15px;
+
+  min-width: 10dvw;
+  width: auto;
+
+  margin: 20dvh 26dvw;
+  padding: 25px;
+  
+}
+
+#notfound div {
+  display: inline-flex;
+  gap: 4px;
+}
+
+#notfound div h1 {
+  font-size: 20pt;
+  display: inline;
+  color: #e0ecf0;
+}
+
+#notfound-image {
+  width: 210px;
+  height: 210px;
+}
+
+#nfbutton {
+  background: var(--highlightcolors);
+  border: var(--highlightcolors) solid 1px;
+  border-radius: 15px;
+
+  padding: 8px;
+}

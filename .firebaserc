@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "chikitaverse-web"
+  },
+  "targets": {
+    "chikitaverse-web": {
+      "hosting": {
+        "login": [
+          "chikitaverse-login"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
